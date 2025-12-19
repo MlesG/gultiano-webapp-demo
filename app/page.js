@@ -69,27 +69,27 @@ export default function Home() {
           <div className="bg-white rounded-lg shadow-md p-8">
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
               <div className="text-center">
-                <div className="w-full h-24 bg-red-500 rounded-lg mb-2"></div>
+                <div className="color w-full h-24 bg-red-500 rounded-lg mb-2"></div>
                 <p className="text-sm font-medium">Red</p>
               </div>
               <div className="text-center">
-                <div className="w-full h-24 bg-blue-500 rounded-lg mb-2"></div>
+                <div className="color w-full h-24 bg-blue-500 rounded-lg mb-2"></div>
                 <p className="text-sm font-medium">Blue</p>
               </div>
               <div className="text-center">
-                <div className="w-full h-24 bg-green-500 rounded-lg mb-2"></div>
+                <div className="color w-full h-24 bg-green-500 rounded-lg mb-2"></div>
                 <p className="text-sm font-medium">Green</p>
               </div>
               <div className="text-center">
-                <div className="w-full h-24 bg-yellow-500 rounded-lg mb-2"></div>
+                <div className="color w-full h-24 bg-yellow-500 rounded-lg mb-2"></div>
                 <p className="text-sm font-medium">Yellow</p>
               </div>
               <div className="text-center">
-                <div className="w-full h-24 bg-purple-500 rounded-lg mb-2"></div>
+                <div className="color w-full h-24 bg-purple-500 rounded-lg mb-2"></div>
                 <p className="text-sm font-medium">Purple</p>
               </div>
               <div className="text-center">
-                <div className="w-full h-24 bg-pink-500 rounded-lg mb-2"></div>
+                <div className="color w-full h-24 bg-pink-500 rounded-lg mb-2"></div>
                 <p className="text-sm font-medium">Pink</p>
               </div>
             </div>
@@ -138,11 +138,11 @@ export default function Home() {
           {/* Flex Layout */}
           <div className="bg-white rounded-lg shadow-md p-8">
             <h3 className="text-xl font-bold mb-4">Flex Layout</h3>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <div className="bg-red-500 text-white p-4 rounded-lg flex-shrink-0">Item 1</div>
-              <div className="bg-orange-500 text-white p-4 rounded-lg flex-shrink-0">Item 2</div>
-              <div className="bg-yellow-500 text-white p-4 rounded-lg flex-shrink-0">Item 3</div>
-              <div className="bg-teal-500 text-white p-4 rounded-lg flex-shrink-0">Item 4</div>
+            <div className="flex flex-wrap gap-4 justify-center flex">
+              <div className="first bg-red-500 text-white p-4 rounded-lg flex-shrink-0">Item 1</div>
+              <div className="second bg-orange-500 text-white p-4 rounded-lg flex-shrink-0">Item 2</div>
+              <div className="third bg-yellow-500 text-white p-4 rounded-lg flex-shrink-0">Item 3</div>
+              <div className="fourth bg-teal-500 text-white p-4 rounded-lg flex-shrink-0">Item 4</div>
             </div>
           </div>
         </section>
@@ -154,24 +154,25 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
                 <img 
-                  src="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Image+1" 
-                  alt="Placeholder" 
+                  src="/images/elsa.jpg" 
+                  alt="elsa" 
                   className="w-full rounded-lg shadow-md"
                 />
                 <p className="mt-2 text-center font-medium">Rounded Image</p>
+
               </div>
               <div>
                 <img 
-                  src="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Image+2" 
-                  alt="Placeholder" 
+                  src="/images/olaf.jpg" 
+                  alt="olaf" 
                   className="w-full rounded-full shadow-md"
                 />
                 <p className="mt-2 text-center font-medium">Circular Image</p>
               </div>
               <div>
                 <img 
-                  src="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Image+3" 
-                  alt="Placeholder" 
+                  src="/images/snowflake.jpg" 
+                  alt="snowflake" 
                   className="w-full shadow-2xl"
                 />
                 <p className="mt-2 text-center font-medium">Shadow Image</p>
